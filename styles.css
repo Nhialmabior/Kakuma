@@ -1,0 +1,53 @@
+header{
+    background-color: blanchedalmond;
+    box-shadow: 2px 2px 4px #000;
+    position: sticky;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+header h1, p{
+    color: #00008b;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    color: #00008b;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+h2:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+#listing-form{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    color: #00008b;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}#listing-form label{
+    padding: 20px;
+    
+}
+#listing-form input{
+    padding: 20px;
+    border-radius: 5px;
+}
+button{
+   padding: 10px;
+   border-radius: 10px;
+}
+#item-image {
+    padding: 20px;
+
+}
